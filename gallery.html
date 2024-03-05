@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');</style>
+  <style>@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Rozha+One&display=swap');</style>
+</head>
+
+<body>
+
+    <a href="Index.html" class="headline">TUVA ANDRESEN</a>
+    <a href="javascript:void(0)" id="menu" onclick="showMenu()">menu</a>
+
+    <header id="menu_header">
+        <nav class="nav">
+            <ul class="nav-menu">
+                <a href="javascript:void(0)" class="nav-branding" id="x" onclick="hideMenu()">X</a>
+                <li class="nav-item">
+                    <a href="about me.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="downloadmyCV.html" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Index.html" class="nav-link">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gallery">
+        <a href="javascript:void(0)" id="1" onclick="displayGallery(this.id)"><img id="1_1" src="Bilder og diverse til nettside/example1.png" alt="example 1"></a>
+        <a href="javascript:void(0)" id="2" onclick="displayGallery(this.id)"><img id="1_2" src="Bilder og diverse til nettside/example5.png" alt="example 5"></a>
+        <a href="javascript:void(0)" id="3" onclick="displayGallery(this.id)"><img id="1_3" src="Bilder og diverse til nettside/example3.png" alt="example 3"></a>
+        <a href="javascript:void(0)" id="4" onclick="displayGallery(this.id)"><img id="1_4" src="Bilder og diverse til nettside/example4.png" alt="example 4"></a>
+        <a href="javascript:void(0)" id="5" onclick="displayGallery(this.id)"><img id="1_5" src="Bilder og diverse til nettside/example2.jpeg" alt="example 2"></a>
+        <a href="javascript:void(0)" id="6" onclick="displayGallery(this.id)"><img id="1_6" src="Bilder og diverse til nettside/example6.jpeg" alt="example 6"></a>
+        <a href="javascript:void(0)" id="7" onclick="displayGallery(this.id)"><img id="1_7" src="Bilder og diverse til nettside/example7.jpeg" alt="example 7"></a>
+        <a href="javascript:void(0)" id="8" onclick="displayGallery(this.id)"><img id="1_8" src="Bilder og diverse til nettside/example8.jpeg" alt="example 8"></a>
+        <a href="javascript:void(0)" id="9" onclick="displayGallery(this.id)"><img id="1_9" src="Bilder og diverse til nettside/example9.jpeg" alt="example 9"></a>
+        <a href="javascript:void(0)" id="10" onclick="displayGallery(this.id)"><img id="2_1" src="Bilder og diverse til nettside/example10.jpeg" alt="example 10"></a>
+        <a href="javascript:void(0)" id="11" onclick="displayGallery(this.id)"><img id="2_2" src="Bilder og diverse til nettside/example11.jpeg" alt="example 11"></a>
+        <a href="javascript:void(0)" id="12" onclick="displayGallery(this.id)"><img id="2_3" src="Bilder og diverse til nettside/example12.jpeg" alt="example 12"></a>
+    </div>
+
+    <header id="gallery_header">
+        <a href="javascript:void(0)" class="nav-branding" id="x" onclick="hideGallery()">X</a>
+        <div id="clicked_gallery">
+            <div id="left_gallery">
+                <img src="#" alt="clicked image" id="clicked_image">
+            </div>
+            <div id="right_gallery">
+                <div id="top_right_gallery">
+                    <h1>Roskilde</h1>
+                </div>
+                <div class="bottom_left_gallery">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam repellendus dolore sapiente, laboriosam minima eum saepe tenetur, sunt quibusdam, quo magni voluptatibus. Pariatur quae, nihil possimus quas dolorem nostrum aspernatur.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
